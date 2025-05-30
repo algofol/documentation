@@ -32,4 +32,4 @@ Create a new one to commit and push changes from local to git repo:
 &nbsp;&nbsp;&nbsp;&nbsp;**Repository Permissions**:\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Contents(Repository contents, commits, branches, downloads, releases, and merges)*: Read and write\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Metadata(Search repositories, list collaborators, and access repository metadata)*: Read-only\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Pull requests(Pull requests and related comments, assignees, labels, milestones, and merges)*: Read and Write\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Pull requests(Pull requests and related comments, assignees, labels, milestones, and merges)*: Read and Write
