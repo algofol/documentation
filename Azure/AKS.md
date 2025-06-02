@@ -4,10 +4,16 @@ https://github.com/HoussemDellai/aks-course/blob/main/02_kubernetes_aks/Readme.m
 
 # Azure AKS Cheatsheet
 
-##### Creating the cluster
+##### Create resource group and cluster
 ```sh
 az group create --name rg-aks-cluster --location swedencentral
 az aks create -n aks-cluster -g rg-aks-cluster --network-plugin azure --network-plugin-mode overlay --generate-ssh-keys
+```
+
+##### Delete cluster and resource group
+```sh
+az aks delete --name aks-cluster --resource-group rg-aks-cluster
+az group delete --resource-group rg-aks-cluster
 ```
 
 ##### Setting the environment
